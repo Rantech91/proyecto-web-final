@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: roboto;
+    
+}
+nav {
+    background-color: rgb(44, 0, 50);
+    
+}
+ul {
+    font-size: 2rem;
+    display: flex;
+    
+    
+      
+}
+li {
+    margin: 30px;
+    list-style: none;
+    background-color: rgb(85, 42, 125);
+    padding: 5px;
+    border-radius: 5px;
+    
+
+}
+a {
+    text-decoration: none;
+    color: black;  
+}
+
+section .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "container-one container-one container-one"
+    "container-two container-two container-two";
+}
+
+div > .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    
+}
+div .container-one {
+    width: 95%;
+    background-color: rgb(212, 183, 221);
+    grid-area: container-one;
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+    border-radius: 10px;
+    justify-self: center;
+    
+}
+div > .container-one-img {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+   
+    margin: 20px 30px 20px 30px;
+    object-fit: cover;
+
+}
+
+.container-one, .container-two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-one-p {
+    margin-top: 50px;
+}
+.container-two {
+    grid-area: container-two;
+    width: 95%;
+    background-color: rgb(212, 183, 221);
+    display: flex;
+    margin: 30px;
+   border-radius: 10px;
+    justify-self: center;
+    justify-content: center;
+   }
+
+
+.container-two-p {
+    
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+.video-link {
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+
+body {
+    background-color: rgb(238, 222, 235);
+    width: 100%;
+     
+}
+section {
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    margin: 20px;
+}
+p {
+    font-size: 2rem;
+    margin: 30px;
+}    
+    footer {
+    background-color: black;
+    color: bisque;
+}
+span { 
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container-one,
+    .container-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container>.container-one-img {
+        width: 331px;
+        height: auto;
+        border-radius: 30px;
+
+        justify-content: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-button {
+        padding: 5px;
+        margin: 10px;
+    
+}
+
+
+
+}

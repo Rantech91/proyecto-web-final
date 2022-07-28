@@ -25,7 +25,11 @@ nav {
     background-color: rgb(90, 9, 90);
 }
 
-
+.body {
+    
+    background-color: rgb(227, 219, 226);
+  
+  }
 .btn {
     background-image: linear-gradient(to right, #7a1253 0%, #61045F  51%, #AA076B  100%);
     margin: 10px;
@@ -57,24 +61,13 @@ a {
 body {
     
     background-color: rgb(238, 222, 235);
-        width: 100%;
-        display: grid;
-        grid-template-rows: 100px 1fr;
-        grid-template-areas:
-        "header"
-        "h1" 
-        "card-container" ;
-        height: 100vh;
-        align-items: flex-star;
-     
 }
-.header {
-    grid-area: header;
-}
+
+
 
 h1 {
     font-size: 3rem;
-   grid-area: h1;
+  
     margin: 40px 0;
     display: flex;
     justify-content: center;
@@ -86,10 +79,21 @@ h2, p {
 h2 {
     margin-top: 30px;
 }
+.flex-container {
+   display: flex;
+    align-self: center;
+    width: 100vw;
+}
 .card-container {
-    grid-area: card-container;
+   
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 100vw;
+    
+
+    
     
 }
 
@@ -103,7 +107,7 @@ p {
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
-    
+    width: 300px;
     margin: 20px;
     
 }

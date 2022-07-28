@@ -14,13 +14,20 @@ nav {
 }
 .nav {
     font-size: 2rem;
-    display: flex;
-    
-    
-      
+    display: flex;     
 }
-.btn-grad {
-    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+.navbar-nav {
+    font-size: 2rem;
+    display: flex; 
+}
+
+.container-fluid {
+    background-color: rgb(90, 9, 90);
+}
+
+
+.btn {
+    background-image: linear-gradient(to right, #7a1253 0%, #61045F  51%, #AA076B  100%);
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -28,16 +35,17 @@ nav {
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 5px #eee;
     border-radius: 10px;
     display: block;
   }
 
-  .btn-grad:hover {
+  .btn:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
   }
+    
     
 
 

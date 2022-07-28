@@ -65,10 +65,10 @@ body {
 
 
 
-h1 {
+.title {
     font-size: 3rem;
   
-    margin: 40px 0;
+    margin: 30px 0;
     display: flex;
     justify-content: center;
 }
@@ -91,6 +91,7 @@ h2 {
     justify-content: center;
     align-self: center;
     width: 100vw;
+    margin-bottom: 30px;
     
 
     

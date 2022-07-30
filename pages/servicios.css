@@ -41,6 +41,7 @@ nav {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+  transform: scale(1.1);
 }
   
 

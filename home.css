@@ -14,11 +14,10 @@ nav {
 }
 .navbar-nav {
     font-size: 2rem;
-    display: flex;
+    display: flex;  
     
-    
-      
 }
+
 .body {
     
     background-color: rgb(227, 219, 226);
@@ -40,12 +39,15 @@ nav {
     box-shadow: 0 0 5px #eee;
     border-radius: 10px;
     display: block;
+    cursor: pointer;
+    
   }
 
   .btn:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+    transform: scale(1.1);
   }
 
 

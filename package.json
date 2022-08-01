@@ -1,0 +1,20 @@
+{
+  "name": "backup-proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/home.scss css/home.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rantech91/proyecto-web-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rantech91/proyecto-web-final/issues"
+  },
+  "homepage": "https://github.com/Rantech91/proyecto-web-final#readme"
+}

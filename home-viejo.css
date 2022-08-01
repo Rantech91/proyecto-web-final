@@ -50,18 +50,6 @@ nav {
     transform: scale(1.1);
   }
 
-
-a {
-    text-decoration: none;
-    color: black;  
-}
-
-
-
-
-.container-1, .container-2 {
-    margin-top: 20px;
-}
 .container-1-img {
     height: 200px;
     margin: 20px 0;
@@ -74,6 +62,7 @@ a {
 .container {
     background-color: rgb(212, 183, 221); 
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 .container-one-p {
@@ -116,14 +105,8 @@ body {
     width: 100%;
      
 }
-section {
-    margin-bottom: 30px;
-}
-h1 {
-    font-size: 3rem;
-    margin-bottom: 40px;
-    margin: 20px;
-}
+
+
 p {
     font-size: 2rem;
     margin: 30px;

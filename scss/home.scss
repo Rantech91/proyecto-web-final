@@ -1,3 +1,6 @@
+@import "global/_header.scss";
+@import "global/footer";
+
 * {
     padding: 0;
     margin: 0;
@@ -12,43 +15,6 @@ html {
         background-color: rgb(227, 219, 226);
 }  
 
-nav {
-    background-color: rgb(44, 0, 50);
-    
-    .container-fluid {
-        background-color: rgb(90, 9, 90);
-        
-        .navbar-nav {
-        font-size: 2rem;
-        display: flex;  
-        
-        .btn {
-            background-image: linear-gradient(to right, #7a1253 0%, #61045F  51%, #AA076B  100%);
-            margin: 10px;
-            padding: 5px;
-            text-align: center;
-            
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            box-shadow: 0 0 5px #eee;
-            border-radius: 10px;
-            display: block;
-            cursor: pointer;
-            
-          }
-        
-          .btn:hover {
-            background-position: right center; /* change the direction of the change here */
-            color: #fff;
-            text-decoration: none;
-            transform: scale(1.1);
-          }
-        
-    }
-    }
-    
-}
 
 // Containers
 
@@ -66,12 +32,12 @@ nav {
     }
 
     .container-1-img {
-            height: 200px;
-            margin: 20px 0;
-            border-radius: 20px;
+        height: 200px;
+        margin: 20px 0;
+        border-radius: 20px;
     }
     .container-1-p {
-              margin: 30px 60px 0 0;
+        margin: 30px 60px 0 0;
     }
     .container-2 {
         margin-bottom: 20px;
@@ -81,7 +47,7 @@ nav {
         height: auto;
         border-radius: 30px;
         padding: 20px;
-       
+    
         
         object-fit: cover;
         display: flex;
@@ -101,15 +67,6 @@ nav {
         font-size: 2rem;
         margin: 30px;
     }    
-}
-footer {
-    background-color: black;
-    color: bisque;
-    span { 
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
-    }
 }
 
 @media screen and (max-width: 768px) {

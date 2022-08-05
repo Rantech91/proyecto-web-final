@@ -10,8 +10,8 @@ nav .container-fluid .navbar-nav {
 }
 nav .container-fluid .navbar-nav .btn {
   background-image: linear-gradient(to right, #7a1253 0%, #61045F 51%, #AA076B 100%);
-  margin: 10px;
-  padding: 5px;
+  margin: 5px;
+  padding: 10px;
   text-align: center;
   transition: 0.5s;
   background-size: 200% auto;
@@ -31,6 +31,9 @@ nav .container-fluid .navbar-nav .btn:hover {
 footer {
   background-color: black;
   color: bisque;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
 }
 footer span {
   font-size: 1.5rem;
@@ -70,9 +73,6 @@ html {
   margin: 20px 0;
   border-radius: 20px;
 }
-.container .container-1-p {
-  margin: 30px 60px 0 0;
-}
 .container .container-2 {
   margin-bottom: 20px;
 }
@@ -89,31 +89,6 @@ html {
   display: flex;
   margin: 0;
   padding: 20px;
-}
-.container .col {
-  align-items: center;
-}
-.container p {
-  font-size: 2rem;
-  margin: 30px;
-}
-
-@media screen and (max-width: 768px) {
-  .container-1, .container-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .container-two-img {
-    width: 331px;
-    height: auto;
-    border-radius: 30px;
-    justify-content: center;
-  }
-  .container-1-div {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 /*# sourceMappingURL=home.css.map */

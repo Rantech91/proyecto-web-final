@@ -31,9 +31,9 @@ nav .container-fluid .navbar-nav .btn:hover {
 footer {
   background-color: black;
   color: bisque;
-  position: absolute;
   bottom: 0;
   width: 100%;
+  margin-top: 40px;
 }
 footer span {
   font-size: 1.5rem;

@@ -41,6 +41,18 @@ footer span {
   justify-content: center;
 }
 
+.peq--left {
+  background-color: rgb(189, 137, 205);
+}
+
+.peq--center {
+  background-color: rgb(204, 119, 230);
+}
+
+.peq--right {
+  background-color: rgb(51, 9, 64);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -56,7 +68,7 @@ html {
   background-color: rgb(227, 219, 226);
 }
 
-.container {
+.container, .container .container-2 {
   background-color: rgb(212, 183, 221);
   border-radius: 20px;
   margin-top: 20px;

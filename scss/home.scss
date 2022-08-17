@@ -10,7 +10,7 @@
 $colors: (
     left: rgb(189, 137, 205),
     center: rgb(204, 119, 230),
-    right: rgb(51, 9, 64),
+    right: rgb(51, 9, 64)
 );
 
 @each $name-color, $bgcolor in $colors {

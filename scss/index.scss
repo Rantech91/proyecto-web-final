@@ -8,9 +8,9 @@
     justify-content: center;
 }
 $colors: (
-    left: rgb(189, 137, 205),
-    center: rgb(204, 119, 230),
-    right: rgb(51, 9, 64)
+    left: rgb(54, 6, 54),
+    center: rgb(54, 6, 54),
+    right: rgb(54, 6, 54)
 );
 
 @each $name-color, $bgcolor in $colors {
@@ -62,7 +62,7 @@ html {
         width: 250px;
         height: auto;
         border-radius: 30px;
-        padding: 20px;
+        padding: 5px;
         object-fit: cover;
         display: flex;
         justify-self: center;
@@ -74,5 +74,7 @@ html {
         padding: 20px;
     }
 }
-
+.mapa {
+    border-radius: 20px;
+}
 

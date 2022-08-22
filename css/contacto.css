@@ -58,14 +58,17 @@ html {
   width: 100%;
   height: 100vh;
 }
-.body form {
+.body .form-container {
+  height: 100vh;
+}
+.body .form-container form {
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
   margin-left: 20px;
   width: 95%;
 }
-.body form h1 {
+.body .form-container form h1 {
   font-size: 3rem;
   display: flex;
   justify-content: center;

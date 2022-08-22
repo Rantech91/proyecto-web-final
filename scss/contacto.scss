@@ -20,6 +20,10 @@ html {
     background-color: rgb(227, 219, 226);
     width: 100%;
     height: 100vh;
+
+    .form-container {
+        height: 100vh;
+
     form {
         display: flex;
         
@@ -33,7 +37,9 @@ html {
             justify-content: center;
             margin: 40px 0;
         }
+    }   
     }
+    
 }
 
 @media screen and (max-width: 768px) {

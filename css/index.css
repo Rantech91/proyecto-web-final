@@ -39,15 +39,15 @@ footer span {
 }
 
 .peq--left {
-  background-color: rgb(189, 137, 205);
+  background-color: rgb(54, 6, 54);
 }
 
 .peq--center {
-  background-color: rgb(204, 119, 230);
+  background-color: rgb(54, 6, 54);
 }
 
 .peq--right {
-  background-color: rgb(51, 9, 64);
+  background-color: rgb(54, 6, 54);
 }
 
 * {
@@ -89,7 +89,7 @@ html {
   width: 250px;
   height: auto;
   border-radius: 30px;
-  padding: 20px;
+  padding: 5px;
   object-fit: cover;
   display: flex;
   justify-self: center;
@@ -98,6 +98,10 @@ html {
   display: flex;
   margin: 0;
   padding: 20px;
+}
+
+.mapa {
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */
